@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Pacifico&family=Poppins:wght@300;400&family=Roboto:ital,wght@1,500&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 10;
+}
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.bold{
+    font-size: 25px;
+    color: #ff4fc8fc;
+}
+li{
+    padding: 5px;
+}
+.nav-link{
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid transparent;
+}
+.nav-link:hover{
+    border-bottom: 3px solid black;
+    transition: 0.1s;
+}
+
+span{
+    color: #167b9b;
+    font-weight: bold;
+    letter-spacing: -3px;
+}
+p{
+    font-size: 18px;
+}
+.card-title{
+    color: #167b9b;
+    font-weight: bold;
+    letter-spacing: 0px;
+}
+.card-text{
+    color: #a39a9a;
+    font-size: 15px;
+}
+.inner{
+    overflow: hidden;
+}
+.card-img-top{
+    height: 200px;
+    transition: 0.5s;
+
+}
+.card-img-top:hover{
+    transform: scale(1.5);
+    transition: 0.5s;
+
+}
+form{
+    padding: 50px;
+    box-shadow: 2px 2px 5px rgb(0,0,0,.2) ,-1px -1px 5px rgb(0,0,0,.05);
+    border-radius: 40px;
+               
+}
